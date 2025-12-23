@@ -159,3 +159,12 @@ For support please join our [Discord](https://discord.gg/buildonbase) post in `ð
 THE NODE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. We make no guarantees about asset protection or security. Usage is subject to applicable laws and regulations.
 
 For more information, visit [docs.base.org](https://docs.base.org/).
+
+## Troubleshooting
+
+### Node is not syncing
+- Initial synchronization can take several hours or longer.
+- Check container logs to confirm the process is running:
+```bash
+docker compose logs -f
+
